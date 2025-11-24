@@ -19,6 +19,7 @@
 
 <body>
     <div class="base__container">
+
         <header class="hdr">
             <nav class="hdr__nav">
                 <a href="/" class="hrr__nav-logo">
@@ -143,11 +144,13 @@
                 Каталог изделий
             </h1>
         </header>
+
         <main>
+
             <section class="products">
                 <div class="product__swiper">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper product__swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide product__swiper-slide">
                             <div class="product__swiper-slide-img-wrapper">
@@ -219,10 +222,116 @@
                 </div>
 
             </section>
-            <section>
-                
+
+            <section class="constructor">
+                <div class="constructor__filters">
+                    <button class="constructor__filter">
+                        <span class="constructor__filter-label">Цвет</span>
+                        <span class="constructor__filter-icon">▾</span>
+                    </button>
+
+                    <button class="constructor__filter">
+                        <span class="constructor__filter-label">Коллекция</span>
+                        <span class="constructor__filter-icon">▾</span>
+                    </button>
+
+                    <button class="constructor__filter">
+                        <span class="constructor__filter-label">Стиль кухни</span>
+                        <span class="constructor__filter-icon">▾</span>
+                    </button>
+
+                    <button class="constructor__filter">
+                        <span class="constructor__filter-label">Тип столешницы</span>
+                        <span class="constructor__filter-icon">▾</span>
+                    </button>
+                </div>
+
+                <div class="constructor__selected">
+                    <div class="constructor__selected-title">Выбрано:</div>
+
+                    <div class="constructor__chips">
+                        <button class="chip chip--color" type="button">
+                            <span class="chip__close">×</span>
+                            <span class="chip__text">Коричневый</span>
+                            <span class="chip__swatch" style="--swatch:#5a3a23;"></span>
+                        </button>
+
+                        <button class="chip" type="button">
+                            <span class="chip__close">×</span>
+                            <span class="chip__text">Модерн</span>
+                        </button>
+
+                        <button class="chip" type="button">
+                            <span class="chip__close">×</span>
+                            <span class="chip__text">Угловая</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards">
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <div class="cards__card-material"></div>
+                    <div class="cards__card-link">
+                        <p>Раковина | 2030 Full Slab</p>
+                        <img src="./assets/icons/catalog_card_link.svg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="article">
+                <div class="article__wrapper">
+                    <img src="./assets/img/catalog/productCards/1.png" alt="">
+                </div>
+                <div class="article__wrapper article__wrapper-info">
+                    <h2>Как правильно подобрать раковину в ваш интерьер?</h2>
+                    <div class="article__wrapper-bottom">
+                        <p>
+                            Хотите качественную и красивую раковину для вашей кухни, от которой не сможете оторвать
+                            глаз?
+                            Читайте статью, мы подробно расскажем вам, как правильно сделать выбор
+                        </p>
+                        <a href="">Читать статью</a>
+                    </div>
+                </div>
             </section>
         </main>
+
         <footer class="footer section-gap">
             <div class="footer__wrap">
                 <div class="footer__links">
@@ -275,9 +384,9 @@
                 <div class="footer__policy-wrap">
                     <p>ⓒ Права защищены | 2025</p>
                 </div>
-                <div class="footer__policy-wrap">
-                    <p>Политика Конфиденциальности</p>
-                    <p>Политика обработки данных</p>
+                <div class="footer__policy-wrap footer__policy-wrap-right">
+                    <p class="footer__policy-hide">Политика Конфиденциальности</p>
+                    <p class="footer__policy-hide">Политика обработки данных</p>
                     <p>Разработка</p>
                 </div>
             </div>

@@ -54,6 +54,32 @@
     transform: translateY(-20px);
 }
 
+.swiper-pagination-wrapper {
+    display: flex;
+}
+
+.hdr__swiper-pagination_2 {
+    position: absolute;
+    bottom: 15px;
+    right: 165px;
+    z-index: 2;
+}
+
+.swiper-pagination-bullet {
+    width: 32px;
+    border-radius: 0;
+    height: 1px;
+}
+
+.swiper-pagination-bullets {
+    bottom: 0;
+    transform: translateX(-40px);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-main-white);
+}
+
 .hdr__nav {
     display: grid;
     grid-template-columns: 1fr auto 1fr;

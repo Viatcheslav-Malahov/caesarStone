@@ -15,22 +15,11 @@ const swiper = new Swiper('.product__swiper', {
     1280: {
       slidesPerView: 3,
       spaceBetween: 20
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 30
     }
-  },
-  // If we need pagination
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   type: "fraction",
-  // },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.hdr__swiper-button-next',
-    prevEl: '.hdr__swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  }
+  
 });
