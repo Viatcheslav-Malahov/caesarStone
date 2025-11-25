@@ -349,47 +349,6 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
     height: 36px;
 }
 
-
-.article {
-    margin-top: 125px;
-    display: flex;
-    gap: 20px;
-}
-
-.article__wrapper {
-    width: 100%;
-}
-
-.article__wrapper>img {
-    width: 100%;
-}
-
-.article__wrapper-info {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.article__wrapper>h2 {
-    font-family: var(--font-roboto);
-}
-
-.article__wrapper-bottom>p {
-    font-size: 18px;
-}
-
-.article__wrapper-bottom>a {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    max-width: 290px;
-    padding: 20px 0;
-    background-color: var(--color-main-dark);
-    color: var(--color-main-white);
-    text-decoration: none;
-}
-
 .calculation {
     display: flex;
     background-color: rgba(236, 234, 229, 1);
@@ -553,11 +512,6 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
         justify-content: flex-start;
     }
 
-    .article__wrapper-bottom>a {
-        margin-top: 30px;
-        font-size: 16px;
-    }
-
 }
 
 
@@ -616,27 +570,6 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
         height: 450px;
     }
 
-    .article__wrapper-info {
-        width: 100%;
-    }
-
-    .article__wrapper-info>h2 {
-        font-size: 32px;
-    }
-
-    .article__wrapper-bottom>p {
-        width: 100%;
-        margin-top: 30px;
-        font-size: 14px;
-    }
-
-    .article__wrapper-bottom>a {
-        width: 100%;
-        max-width: 100%;
-        margin-top: 30px;
-        font-size: 14px;
-    }
-
     .calculation_br {
         display: none;
     }
@@ -646,31 +579,6 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
 
     .cards__card {
         height: 350px;
-    }
-
-    .article {
-        flex-direction: column;
-    }
-
-    .article__wrapper-info {
-        width: 100%;
-    }
-
-    .article__wrapper-info>h2 {
-        font-size: 32px;
-    }
-
-    .article__wrapper-bottom>p {
-        width: 100%;
-        margin-top: 30px;
-        font-size: 14px;
-    }
-
-    .article__wrapper-bottom>a {
-        width: 100%;
-        max-width: 100%;
-        margin-top: 30px;
-        font-size: 14px;
     }
 
     .calculation {
