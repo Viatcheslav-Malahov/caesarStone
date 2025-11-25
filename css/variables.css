@@ -6,7 +6,7 @@
   --color-main-dark: rgba(30, 30, 30, 1);
   --color-main-grey: rgba(134, 134, 134, 1);
   --color-main-grey-blocked: rgba(30, 30, 30, 0.2);
-
+  --color-main-grey-back: rgba(30, 30, 30, 0.1);
   /* --------------------
      Шрифты
      Roboto + Inter

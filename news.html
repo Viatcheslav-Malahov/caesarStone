@@ -14,140 +14,48 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/news.css">
 </head>
 
 <body>
     <div class="base__container">
 
         <header class="hdr">
-            <nav class="hdr__nav">
-                <a href="/" class="hrr__nav-logo">
+
+            <div class="hdr__nav-wrap">
+                <a href="/" class="hdr__nav-logo">
                     CaesarStone
                 </a>
-                <ul class="hdr__nav-list">
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Выбрать поверхность
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
+                <nav class="hdr__nav">
+                    <ul class="hdr__nav-list">
+                        <li class="hdr__nav-list-item hdr__nav-list-left">каталог</li>
+                        <li class="hdr__nav-list-item hdr__nav-list-middle">каталог цветов</li>
+                        <li class="hdr__nav-list-item hdr__nav-list-right">каталог изделий</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hdr__nav-wrap">
+                <a class="hdr__nav-menu" href="">
+                    menu
+                    <img src="./assets/icons/menu.svg" alt="">
+                </a>
 
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Выбрать поверхность
-                                </div>
+            </div>
+            <div class="hdr__nav-wrap">
+                <a class="hder__nav-order">
+                    заказать образец
+                </a>
+                <img src="./assets/icons/cart_dark.png" alt="">
+            </div>
 
-                                <div class="dropdown__item">
-                                    Каталог цветов
-                                </div>
-
-                                <div class="dropdown__item">
-                                    <span>Каталог изделий</span>
-                                </div>
-
-                                <div class="dropdown__item">
-                                    Коллекции
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Вдохновение для дизайна
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Вдохновение для дизайна
-                                </div>
-                            </div>
-                        </div>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Сотрудничество
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Сотрудничество
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                О компании
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    О компании
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Шоурумы
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Шоурумы
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Документы
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Документы
-                                </div>
-                            </div>
-                        </div>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown__toggle">
-                                Поддержка
-                                <span class="dropdown__chevron">▾</span>
-                            </button>
-
-                            <div class="dropdown__menu">
-                                <div class="dropdown__item dropdown__item--title">
-                                    Поддержка
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <div class="hdr__nav-contacts">
-                    <a href="" type="tel">8( 495) 999 99 99 </a>
-                    <a href=""><img src="./assets/icons/cart_dark.png" alt=""></a>
-                </div>
-            </nav>
-            <h1 class="hdr__h1">
-                Каталог цветов
-            </h1>
         </header>
 
         <main>
 
-        
+            <h1 class="hdr__h1">
+                Новости
+            </h1>
+
             <section class="constructor">
                 <div class="constructor__filters">
                     <button class="constructor__filter">
