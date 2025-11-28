@@ -1,7 +1,7 @@
 .hdr {
     position: relative;
     overflow: hidden;
-    padding: 10px 40px 40px 40px;
+    padding-top: 10px;
     width: 100%;
     color: var(--color-main-dark);
 }
@@ -44,6 +44,7 @@
 
 .hrr__nav-logo {
     display: flex;
+    align-items: center;
     width: 117px;
 }
 
@@ -139,9 +140,18 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
     align-items: center;
 }
 
+
+.extra__nav {
+    margin-top: 80px;
+}
+
+.extra__nav>span {
+    opacity: 0.5;
+}
+
 .hdr__h1 {
     font-family: var(--font-roboto);
-    margin-top: 150px;
+    margin-top: 30px;
     width: 878px;
 }
 
@@ -561,9 +571,12 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
         padding: 0 10px;
     }
 
-    .hdr__nav-list,
-    .hdr__nav-contacts {
-        display: none;
+    .hdr__nav {
+        font-size: 12px;
+    }
+
+    .hdr__nav-list {
+        gap: 5px;
     }
 
     .hdr__h1 {
@@ -638,6 +651,12 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
 }
 
 @media (max-width: 900px) {
+
+    .hdr__nav-list,
+    .hdr__nav-contacts {
+        display: none;
+    }
+
 
     .cards__card {
         height: 350px;
@@ -728,13 +747,15 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
     .cards__card {
         height: 240px;
         background-position: center;
-        background-size: auto 100%;   
-        background-repeat: no-repeat;    
+        background-size: auto 100%;
+        background-repeat: no-repeat;
     }
+
     .cards__card-material {
         width: 65px;
         height: 55px;
     }
+
     .cards__card-link {
         padding: 3px 10px;
         width: 100%;
@@ -742,11 +763,11 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
         bottom: 0;
     }
 
-    .cards__card-link >p{
+    .cards__card-link>p {
         font-size: 14px;
     }
 
-    .cards__card-link > img {
+    .cards__card-link>img {
         height: 20px;
     }
 }
