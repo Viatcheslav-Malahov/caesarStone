@@ -444,6 +444,7 @@ nav .dropdown__item:not(.dropdown__item--accent):hover {
     flex-direction: column;
     gap: 10px;
 }
+
 .colorInsideSliderItemInfoWrapGrey{
     opacity: 0.5;
     font-size: 14px;
