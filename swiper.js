@@ -1,4 +1,4 @@
-const swiper = new Swiper('.hdr__swiper', {
+const swiper = new Swiper('.hdrSwiper', {
   // Optional parameters
   loop: true,
 
@@ -9,8 +9,8 @@ const swiper = new Swiper('.hdr__swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.hdr__swiper-button-next',
-    prevEl: '.hdr__swiper-button-prev',
+    nextEl: '.hdrSwiper-button-next',
+    prevEl: '.hdrSwiper-button-prev',
   },
 
   // And if we need scrollbar
@@ -19,7 +19,7 @@ const swiper = new Swiper('.hdr__swiper', {
   },
 });
 
-const numEl = document.querySelector('.hdr__swiper-pagination_2');
+const numEl = document.querySelector('.hdrSwiper-pagination_2');
 
 function updateNumeric() {
   const total = swiper.slides.length;

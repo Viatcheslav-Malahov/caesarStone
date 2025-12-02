@@ -91,14 +91,14 @@ input:target {
   border: none;
 }
 
-.base__container {
+.baseContainer {
   padding: 0 40px;
   max-width: 1920px;
   margin: 0 auto;
   width: 100%;
 }
 
-.section-gap {
+.sectionGap {
   margin-top: 114px;
 }
 
