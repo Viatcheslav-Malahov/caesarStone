@@ -96,9 +96,38 @@ input:target {
   max-width: 1920px;
   margin: 0 auto;
   width: 100%;
+  position: relative;
 }
 
 .sectionGap {
   margin-top: 114px;
 }
 
+@media (max-width: 1650px) {
+  .baseContainer {
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 1250px) {
+  .baseContainer {
+    padding: 0 10px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .baseContainer {
+    padding: 0 5px;
+  }
+
+}
