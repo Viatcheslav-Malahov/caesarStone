@@ -58,19 +58,19 @@ const newsBlogSwiper = new Swiper('.newsBlogSwiper', {
 
   breakpoints: {
     '1200': {
-      slidesPerView: 4,
+      slidesPerView: 3.4,
       spaceBetween: 20,
     },
     '900': {
-      slidesPerView: 3,
+      slidesPerView: 3.2,
       spaceBetween: 20,
     },
     '650': {
-      slidesPerView: 2,
+      slidesPerView: 2.2,
       spaceBetween: 20,
     },
     '0': {
-      slidesPerView: 1,
+      slidesPerView: 1.4,
       spaceBetween: 20,
     }
   },
